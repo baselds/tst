@@ -1,5 +1,4 @@
 import streamlit as st
-import cv2
 
 def new_line(n = 1):
     for _ in range(n):
