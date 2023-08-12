@@ -51,8 +51,6 @@ with st.expander("Click to see"):
 
     col1, col2, col3 = st.columns(3)
 
-    img2 = cv2.imread("assets/img2.jpg")
-
     col1.image("assets/img2.jpg", width = 200, caption = "Your Hands")
     col2.image("assets/img3.jpg", width = 200, caption = "Your Lips")
     col3.image("assets/img4.jpg", width = 200, caption = "Your Eyes")
